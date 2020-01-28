@@ -1,0 +1,182 @@
+body{
+    padding:0;
+    margin:0;
+    height:100vh;
+    width:100vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+button{
+    margin:5px;
+    width:120px;
+    height:40px;
+    border-radius: 4px;
+    color:white;  
+    background-color: #03acb8;
+    border:none;
+
+}
+.MainBody{
+    height:100%;
+    width:100%;    
+}
+.HeadingText{
+    width: 454px;
+    margin: auto;
+    padding-bottom: 20px;
+    color:white;
+    font-size: 24px;
+}
+.DisplayMainLogo{       
+    width: 100px;
+    margin: auto; 
+    padding-top: 46px;    
+}
+.BodyContent{
+    background-color:  #03acb8;
+    padding-bottom:40px;
+}
+.Polygon{
+    fill:white;
+}
+.DataTileContainer{ 
+    width:980px;
+    border: 1px solid #9fe9ef;
+    border-radius: 30px;
+    display: flex;    
+    margin: auto;
+}
+.Root{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background:transparent;
+    padding-bottom: 36px;
+  }
+  
+.Box{
+    position: relative;
+}
+.BoxNew1,.BoxNew2{
+    margin: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: white;
+    height: 150px;
+    width: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.BoxNew2{    
+    background: #9fe9ef;
+}
+.Content,.Content2{ 
+    font-size: 13px;
+    color:#70cdd4;
+}
+.Content2{ 
+    color:#03acb8;
+}
+.AlignPosition{
+    position: relative;
+}
+.Header{
+    height: 40px;
+    padding-left: 30px;
+    background: #03acb8;
+    border-radius: 0 30px 0 0;
+    line-height: 2.5;
+    font-size: 14px;
+    color:whitesmoke;
+}
+.FirstRound,.FirstRound2{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    top: -5px;
+    left: -25px;
+    z-index: 10;
+}
+.FirstRound2{
+    background-color: #9fe9ef;
+}
+.SecondRound{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background: #03acb8;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+    z-index: 100;
+}
+  
+.ThirdRound,.ThirdRound2{
+    height: 50px;
+    width: 50px;
+    top: 5px;
+    left: 15px;
+    background-color: #70cdd4;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1000;
+    color:#03acb8;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2;
+}
+.ThirdRound2{
+    background-color:whitesmoke;
+}
+
+.VerticalLine{
+    height: 30px;
+    border-left: 1px solid #9fe9ef;
+    width:20px;
+    margin:auto;
+}
+
+
+
+.Footer{
+    height:40%;
+    font-size: 13px;
+    background-color: whitesmoke;
+}
+.FooterLogoSVG{
+    padding: 10px;
+    height:25px;
+    width:150px;
+}
+.cls-1 {
+    fill: #03acb8;
+}
+.AlignFooter{
+    display:flex;
+    justify-content: space-around;
+}
+.AlignAddress{
+    width:300px;
+    display:flex;    
+    justify-content: space-around;
+}
+.VerticalFlex{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.AlignButton{
+    display: flex;
+}
+.AlignLogo{
+    display: flex;
+}
+.DisplayLogo{
+    width: 120px;
+    height: 70px;
+}
